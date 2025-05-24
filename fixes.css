@@ -1,0 +1,194 @@
+/* CSS FIXES - Reduced Spacing & Workflow Visibility */
+
+/* GENERAL SPACING FIXES */
+section {
+    padding: 3rem 0 !important; /* Reduced from 5rem */
+}
+
+.container {
+    max-width: 1200px !important;
+    padding: 0 1.5rem !important; /* Reduced padding */
+}
+
+h2 {
+    margin-bottom: 1rem !important; /* Reduced from 1.5rem */
+    font-size: clamp(2rem, 4vw, 3rem) !important; /* Smaller headings */
+}
+
+section > .container > p {
+    margin: 0 auto 2.5rem auto !important; /* Reduced from 4rem */
+    max-width: 800px;
+}
+
+/* WORKFLOW/PROCESS TIMELINE FIXES */
+.process-timeline {
+    position: relative !important;
+    max-width: 900px !important;
+    margin: 2rem auto !important; /* Reduced spacing */
+    padding: 1rem 0 !important;
+    display: block !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.process-timeline::before {
+    content: '' !important;
+    position: absolute !important;
+    left: 35px !important;
+    top: 0 !important;
+    bottom: 0 !important;
+    width: 4px !important;
+    background: linear-gradient(135deg, #ff3d00 0%, #ff5722 50%, #f44336 100%) !important;
+    border-radius: 2px !important;
+    opacity: 1 !important;
+    z-index: 1 !important;
+}
+
+.timeline-item {
+    display: flex !important;
+    margin: 2.5rem 0 !important; /* Reduced spacing */
+    align-items: flex-start !important;
+    gap: 2rem !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.timeline-number {
+    background: linear-gradient(135deg, #ff3d00 0%, #ff5722 50%, #f44336 100%) !important;
+    color: white !important;
+    width: 70px !important;
+    height: 70px !important;
+    border-radius: 50% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    font-weight: 900 !important;
+    font-size: 1.5rem !important;
+    flex-shrink: 0 !important;
+    box-shadow: 0 0 20px rgba(255, 61, 0, 0.4) !important;
+    position: relative !important;
+    z-index: 10 !important;
+    border: 3px solid #0a0a0a !important;
+}
+
+.timeline-content {
+    flex: 1 !important;
+    background: #1a1a1a !important;
+    padding: 2rem !important; /* Reduced padding */
+    border-radius: 15px !important;
+    border: 1px solid #333 !important;
+    backdrop-filter: blur(10px) !important;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.3) !important;
+    transition: all 0.3s ease !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+}
+
+.timeline-content:hover {
+    transform: translateY(-5px) !important;
+    border-color: #ff3d00 !important;
+    box-shadow: 0 12px 40px rgba(255, 61, 0, 0.15) !important;
+}
+
+.timeline-content h3 {
+    color: #ffffff !important;
+    margin-bottom: 1rem !important;
+    font-size: 1.3rem !important;
+    font-weight: 700 !important;
+    background: linear-gradient(135deg, #ff3d00 0%, #ff5722 50%, #f44336 100%) !important;
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
+    background-clip: text !important;
+}
+
+.timeline-content p {
+    color: #a8a8a8 !important;
+    line-height: 1.6 !important;
+    font-size: 1rem !important;
+    margin: 0 !important;
+}
+
+/* SERVICES GRID FIXES */
+.services-grid {
+    gap: 1.5rem !important; /* Reduced gap */
+    margin: 2rem 0 !important; /* Reduced margin */
+}
+
+.service-card {
+    padding: 2rem !important; /* Reduced padding */
+}
+
+/* STATS GRID FIXES */
+.stats-grid {
+    margin: 2rem 0 !important; /* Reduced from 4rem */
+    gap: 1.5rem !important; /* Reduced gap */
+}
+
+.stat-item {
+    padding: 2rem !important; /* Reduced from 3rem */
+}
+
+/* ABOUT CONTENT FIXES */
+.about-content p {
+    margin-bottom: 1.5rem !important; /* Reduced spacing */
+}
+
+.credentials {
+    margin: 2rem 0 !important; /* Reduced from 4rem */
+    padding: 2rem !important; /* Reduced padding */
+}
+
+/* PORTFOLIO FIXES */
+.portfolio-categories {
+    margin: 1.5rem 0 2rem 0 !important; /* Reduced spacing */
+}
+
+.portfolio-grid {
+    margin: 2rem 0 !important; /* Reduced from 4rem */
+    gap: 2rem !important; /* Reduced gap */
+}
+
+/* TESTIMONIAL FIXES */
+.testimonial-grid {
+    margin: 2rem 0 !important; /* Reduced from 4rem */
+    gap: 2rem !important; /* Reduced gap */
+}
+
+.testimonial-card {
+    padding: 2rem !important; /* Reduced from 3rem */
+}
+
+/* CONTACT SECTION FIXES */
+.contact-wrapper {
+    gap: 2.5rem !important; /* Reduced from 4rem */
+}
+
+/* MOBILE RESPONSIVENESS FIXES */
+@media (max-width: 768px) {
+    section {
+        padding: 2rem 0 !important; /* Further reduced on mobile */
+    }
+    
+    .container {
+        padding: 0 1rem !important;
+    }
+    
+    .process-timeline::before {
+        left: 25px !important;
+    }
+    
+    .timeline-item {
+        flex-direction: column !important;
+        text-align: center !important;
+        gap: 1rem !important;
+    }
+    
+    .timeline-number {
+        margin: 0 auto !important;
+    }
+    
+    .services-grid {
+        grid-template-columns: 1fr !important;
+        gap: 1rem !important;
+    }
+} 
