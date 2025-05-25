@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="de">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
     <title>Photogrammetry for Games Germany | 3D Scanning Specialist | The Triangle Forge</title>
     <meta name="title" content="Photogrammetry for Games Germany | 3D Scanning Specialist | The Triangle Forge">
     <meta name="description" content="🏆 Germany's Leading Photogrammetry Specialist for Game Development ✅ Ex-Quixel/Epic Games Expert ✅ 500+ Game-Ready 3D Scans ✅ Custom Assets & Vegetation ✅ Unreal Engine & Unity ✅ Made in Germany">
-    <meta name="keywords" content="Photogrammetry for Games, 3D Scanning Germany, Game Development Assets, Photogrammetry Germany, Game Ready Assets, Unreal Engine Photogrammetry, Unity 3D Scanning, Epic Games Photogrammetry, Real-time Assets, PBR Materials Germany, Architectural Photogrammetry Deutschland, Technical Artist Germany, Environment Art Assets, Photorealistic Textures, 3D Asset Creation Germany, Game Asset Outsourcing Deutschland, Foliage Artist, Vegetation Photogrammetry, Photogrammetrie Bayern, Photogrammetrie NRW, Photogrammetrie Baden-Württemberg, 3D Scan Services Berlin, Game Development Hamburg, München Photogrammetrie, Frankfurt Game Assets">
+    <meta name="keywords" content="Photogrammetry for Games, 3D Scanning Germany, Game Development Assets, Photogrammetry Germany, Game Ready Assets, Unreal Engine Photogrammetry, Unity 3D Scanning, Epic Games Photogrammetry, Real-time Assets, PBR Materials Germany, Architectural Photogrammetry Germany, Technical Artist Germany, Environment Art Assets, Photorealistic Textures, 3D Asset Creation Germany, Game Asset Outsourcing Germany, Foliage Artist, Vegetation Photogrammetry, Photogrammetry Bavaria, Photogrammetry NRW, Photogrammetry Baden-Württemberg, 3D Scan Services Berlin, Game Development Hamburg, Munich Photogrammetry, Frankfurt Game Assets">
     <meta name="author" content="Philipp Russo - The Triangle Forge">
     <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
     <link rel="canonical" href="https://triangleforge.com">
@@ -32,15 +32,15 @@
     <meta property="twitter:image" content="https://triangleforge.com/og-image.jpg">
     <meta name="twitter:creator" content="@triangleforge">
     
-    <!-- Enhanced Local SEO für Deutschland -->
+    <!-- Enhanced Local SEO for Germany -->
     <meta name="geo.region" content="DE">
     <meta name="geo.country" content="Germany">
-    <meta name="geo.placename" content="Deutschland">
+    <meta name="geo.placename" content="Germany">
     <meta name="geo.position" content="51.1657;10.4515">
     <meta name="ICBM" content="51.1657, 10.4515">
-    <meta name="dc.language" content="de">
-    <meta name="dc.title" content="The Triangle Forge – Photogrammetrie Deutschland">
-    <meta name="dc.subject" content="Photogrammetrie, Foliage Artist, Game Development, 3D Scanning Deutschland">
+    <meta name="dc.language" content="en">
+    <meta name="dc.title" content="The Triangle Forge – Photogrammetry Germany">
+    <meta name="dc.subject" content="Photogrammetry, Foliage Artist, Game Development, 3D Scanning Germany">
     <meta name="dc.creator" content="Philipp Russo">
     
     <!-- Preload critical resources -->
@@ -48,9 +48,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     
-    <!-- TIMELINE NOTFALL REPARATUR -->
-    <link rel="stylesheet" href="timeline-fix.css">
-    <link rel="stylesheet" href="fixes.css">
+    <!-- TIMELINE EMERGENCY FIXES -->
+    <link rel="stylesheet" href="timeline-fix.css?v=2">
+    <link rel="stylesheet" href="fixes.css?v=2">
+    <link rel="stylesheet" href="mobile-critical.css?v=6">
 
     <!-- Favicon -->
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🔺</text></svg>">
@@ -61,21 +62,21 @@
         "@context": "https://schema.org",
         "@type": "LocalBusiness",
         "@id": "https://triangleforge.com/#business",
-        "name": "The Triangle Forge - Photogrammetrie Deutschland",
-        "description": "Deutschlands führender Photogrammetrie-Spezialist für Game Development. Ex-Quixel/Epic Games Experte für Game-Ready 3D Scans.",
+        "name": "The Triangle Forge - Photogrammetry Germany",
+        "description": "Germany's leading Photogrammetry Specialist for Game Development. Ex-Quixel/Epic Games Expert for Game-Ready 3D Scans.",
         "url": "https://triangleforge.com",
         "email": "philipp@triangleforge.com",
         "founder": {
             "@type": "Person",
             "name": "Philipp Russo",
-            "jobTitle": "Photogrammetrie-Spezialist & Technical Artist"
+            "jobTitle": "Photogrammetry Specialist & Technical Artist"
         },
         "address": {
             "@type": "PostalAddress",
             "addressCountry": "DE",
-            "addressLocality": "Deutschland"
+            "addressLocality": "Germany"
         },
-        "areaServed": ["Deutschland", "Austria", "Switzerland"],
+        "areaServed": ["Germany", "Austria", "Switzerland"],
         "serviceArea": {
             "@type": "GeoCircle",
             "geoMidpoint": {
@@ -1861,6 +1862,126 @@
                 transition-duration: 0.01ms !important;
             }
         }
+
+        /* CRITICAL MOBILE FIXES - DIRECT INJECTION */
+        
+        /* HERO TITLE FIX - ALWAYS VISIBLE */
+        header#hero {
+            padding-top: 8rem !important;
+            min-height: 100vh !important;
+            display: flex !important;
+            align-items: center !important;
+            justify-content: center !important;
+        }
+        
+        .hero-content {
+            padding-top: 2rem !important;
+            padding-bottom: 2rem !important;
+            width: 100% !important;
+            max-width: 1200px !important;
+            margin: 0 auto !important;
+        }
+        
+        .hero-title {
+            display: block !important;
+            visibility: visible !important;
+            opacity: 1 !important;
+            font-size: clamp(3rem, 8vw, 7rem) !important;
+            font-weight: 900 !important;
+            margin: 0 0 1rem 0 !important;
+            padding: 0 1rem !important;
+            background: linear-gradient(135deg, #ff3d00 0%, #ff5722 50%, #f44336 100%) !important;
+            -webkit-background-clip: text !important;
+            -webkit-text-fill-color: transparent !important;
+            background-clip: text !important;
+            letter-spacing: -0.04em !important;
+            line-height: 1.2 !important;
+            text-align: center !important;
+            z-index: 1000 !important;
+            position: relative !important;
+            width: 100% !important;
+            box-sizing: border-box !important;
+        }
+        
+        @media (max-width: 768px) {
+            /* Mobile hero fixes */
+            header#hero {
+                padding-top: 6rem !important;
+                min-height: 100vh !important;
+            }
+            
+            .hero-content {
+                padding: 1rem !important;
+            }
+            
+            /* Hero title mobile specific */
+            .hero-title {
+                font-size: clamp(2.5rem, 10vw, 4rem) !important;
+                line-height: 1.1 !important;
+                margin: 0 0 1rem 0 !important;
+                padding: 0 0.5rem !important;
+            }
+            
+            /* Chrome mobile specific fixes */
+            .hero-title {
+                color: #ff3d00 !important;
+                background: -webkit-linear-gradient(135deg, #ff3d00 0%, #ff5722 50%, #f44336 100%) !important;
+                background: linear-gradient(135deg, #ff3d00 0%, #ff5722 50%, #f44336 100%) !important;
+                -webkit-background-clip: text !important;
+                -webkit-text-fill-color: transparent !important;
+                background-clip: text !important;
+            }
+            
+            /* Chrome needs more top spacing */
+            header#hero {
+                padding-top: 8rem !important;
+            }
+            
+            /* YouTube buttons fix */
+            .youtube-container > div:last-child {
+                display: flex !important;
+                flex-direction: column !important;
+                align-items: center !important;
+                gap: 2rem !important;
+                margin-top: 2rem !important;
+            }
+            
+            .youtube-channel-link {
+                width: 100% !important;
+                max-width: 300px !important;
+                margin: 1rem 0 !important;
+                display: block !important;
+                text-align: center !important;
+            }
+            
+            /* Contact form fixes */
+            .contact-wrapper {
+                grid-template-columns: 1fr !important;
+                gap: 2rem !important;
+            }
+            
+            .form-group input,
+            .form-group select,
+            .form-group textarea {
+                font-size: 16px !important;
+                padding: 1rem !important;
+            }
+            
+            .submit-btn {
+                width: 100% !important;
+                padding: 1.2rem !important;
+            }
+            
+            /* Hero buttons fix */
+            .hero-cta,
+            .hero-cta-secondary {
+                display: block !important;
+                width: 100% !important;
+                max-width: 280px !important;
+                margin: 1rem auto !important;
+                text-align: center !important;
+            }
+        }
     /* EMERGENCY TIMELINE FIX */ .process-timeline { display: block !important; opacity: 1 !important; visibility: visible !important; position: relative !important; max-width: 1000px !important; margin: 2rem auto !important; padding: 1rem 0 !important; } .timeline-item { display: flex !important; opacity: 1 !important; visibility: visible !important; margin: 3rem 0 !important; align-items: flex-start !important; gap: 2rem !important; transform: none !important; } .timeline-number { display: flex !important; opacity: 1 !important; visibility: visible !important; background: linear-gradient(135deg, #ff3d00 0%, #ff5722 100%) !important; color: white !important; width: 80px !important; height: 80px !important; border-radius: 50% !important; align-items: center !important; justify-content: center !important; font-weight: 900 !important; font-size: 1.8rem !important; flex-shrink: 0 !important; box-shadow: 0 0 30px rgba(255, 61, 0, 0.5) !important; z-index: 10 !important; border: 4px solid #0a0a0a !important; } .timeline-content { display: block !important; opacity: 1 !important; visibility: visible !important; flex: 1 !important; background: #1a1a1a !important; padding: 2.5rem !important; border-radius: 20px !important; border: 1px solid #333 !important; box-shadow: 0 10px 40px rgba(0, 0, 0, 0.4) !important; transition: all 0.4s ease !important; } .timeline-content h3 { display: block !important; opacity: 1 !important; color: #ffffff !important; margin-bottom: 1.5rem !important; font-size: 1.4rem !important; font-weight: 700 !important; background: linear-gradient(135deg, #ff3d00 0%, #ff5722 100%) !important; -webkit-background-clip: text !important; -webkit-text-fill-color: transparent !important; background-clip: text !important; } .timeline-content p { display: block !important; opacity: 1 !important; color: #a8a8a8 !important; line-height: 1.7 !important; font-size: 1.1rem !important; margin: 0 !important; } section h2, .service-card, .stat-item, .timeline-item, .testimonial-card { opacity: 1 !important; transform: translateY(0) !important; visibility: visible !important; } </style>
 </head>
 <body>
@@ -1870,17 +1991,17 @@
     <!-- Back to Top Button -->
     <button class="back-to-top">↑</button>
 
-    <!-- Privacy Notice (DSGVO-konform) -->
+    <!-- Privacy Notice (GDPR-compliant) -->
     <div class="privacy-notice" id="privacyNotice">
-        <p>🍪 Diese Website verwendet YouTube-Videos. Durch das Laden von Videos können Cookies gesetzt werden.</p>
+        <p>🍪 This website uses YouTube videos. Loading videos may set cookies.</p>
         <div class="privacy-buttons">
-            <button class="privacy-btn accept" onclick="acceptPrivacy()">Videos laden</button>
-            <button class="privacy-btn decline" onclick="declinePrivacy()">Ablehnen</button>
+            <button class="privacy-btn accept" onclick="acceptPrivacy()">Load Videos</button>
+            <button class="privacy-btn decline" onclick="declinePrivacy()">Decline</button>
         </div>
     </div>
 
     <!-- Navigation -->
-    <nav role="navigation" aria-label="Hauptnavigation">
+    <nav role="navigation" aria-label="Main Navigation">
         <div class="nav-container">
             <div class="logo">The Triangle Forge</div>
             <ul class="nav-links">
@@ -1908,7 +2029,7 @@
             <div class="availability-container">
                 <div class="availability-badge">
                     <div class="availability-dot"></div>
-                    Verfügbar für neue Projekte Q2 2025
+                    Available for new projects Q2 2025
                 </div>
             </div>
             
@@ -2085,16 +2206,16 @@
                 </div>
                 
                 <div class="youtube-embed-container">
-                    <!-- DSGVO-konformer YouTube Placeholder -->
+                    <!-- GDPR-compliant YouTube Placeholder -->
                     <div class="youtube-consent" id="youtubeConsent">
                         <h4>🎬 YouTube Content</h4>
-                        <p>Um unsere Videos anzusehen, müssen externe Inhalte von YouTube geladen werden. Dabei können Cookies gesetzt werden.</p>
+                        <p>To view our videos, external content from YouTube must be loaded. This may set cookies.</p>
                         <button class="consent-button" onclick="loadYouTubeContent()">
-                            Videos laden & Datenschutz akzeptieren
+                            Load Videos & Accept Privacy Policy
                         </button>
                     </div>
                     
-                    <!-- YouTube Preview (wird nach Consent geladen) -->
+                    <!-- YouTube Preview (loaded after consent) -->
                     <div class="youtube-preview" id="youtubePreview" style="display: none;" onclick="loadLatestVideo()">
                         <div class="youtube-thumbnail">
                             <div class="youtube-play-button">▶</div>
@@ -2105,7 +2226,7 @@
                         </div>
                     </div>
                     
-                    <!-- YouTube Iframe (wird dynamisch geladen) -->
+                    <!-- YouTube Iframe (loaded dynamically) -->
                     <div id="youtubePlayer" style="display: none;"></div>
                 </div>
                 
@@ -2114,7 +2235,7 @@
                         🎬 Visit our YouTube Channel
                     </a>
                     
-                    <!-- Button für alle Videos -->
+                    <!-- Button for all videos -->
                     <button onclick="loadChannelPlaylist()" class="youtube-channel-link" style="margin-left: 1rem; background: transparent; border: 2px solid var(--accent); color: var(--accent);">
                         📺 View All Videos
                     </button>
@@ -2508,7 +2629,7 @@
     </footer>
 
     <!-- Privacy Modal -->
-    <div class="modal" id="datenschutzModal">
+    <div class="modal" id="privacyModal">
         <div class="modal-content">
             <div class="modal-header">
                 <h3>📋 Privacy Policy</h3>
@@ -2548,7 +2669,7 @@
         <!-- Local SEO Content for Search Engines Only -->
         <section id="local-services-seo">
             <h2>Professional Photogrammetry Services Throughout Germany</h2>
-            <p>Photogrammetry Bavaria München Nuremberg, 3D Scanning Berlin Brandenburg, Game Assets North Rhine-Westphalia Cologne Düsseldorf, Vegetation Photogrammetry Hamburg Frankfurt Stuttgart, Photogrammetrie Deutschland, Foliage Artist Germany, Game Development Assets DACH Region</p>
+            <p>Photogrammetry Bavaria München Nuremberg, 3D Scanning Berlin Brandenburg, Game Assets North Rhine-Westphalia Cologne Düsseldorf, Vegetation Photogrammetry Hamburg Frankfurt Stuttgart, Photogrammetry Germany, Foliage Artist Germany, Game Development Assets DACH Region</p>
             
             <div>
                 <h3>Photogrammetry Bavaria (Bayern)</h3>
@@ -2567,7 +2688,7 @@
     </div>
 
     <script>
-        // Privacy Management (DSGVO)
+        // Privacy Management (GDPR)
         let privacyAccepted = false;
         let youtubeConsent = false;
 
@@ -2624,7 +2745,7 @@
             document.getElementById('privacyNotice').classList.remove('show');
         }
 
-        // Load YouTube Content (DSGVO-konform)
+        // Load YouTube Content (GDPR-compliant)
         function loadYouTubeContent() {
             if (!youtubeConsent) {
                 youtubeConsent = true;
@@ -2841,12 +2962,12 @@
 
         // Contact Form & Modal Management
         function openModal() {
-            document.getElementById('datenschutzModal').style.display = 'block';
+            document.getElementById('privacyModal').style.display = 'block';
             document.body.style.overflow = 'hidden';
         }
 
         function closeModal() {
-            document.getElementById('datenschutzModal').style.display = 'none';
+            document.getElementById('privacyModal').style.display = 'none';
             document.body.style.overflow = 'auto';
         }
 
@@ -2937,7 +3058,7 @@
 
         // Enhanced modal handling
         function setupModalHandlers() {
-            const modal = document.getElementById('datenschutzModal');
+            const modal = document.getElementById('privacyModal');
             
             // Close modal when clicking outside
             window.addEventListener('click', (event) => {
